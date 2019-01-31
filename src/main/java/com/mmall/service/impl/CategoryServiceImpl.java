@@ -92,6 +92,7 @@ public class CategoryServiceImpl implements ICategoryService {
         for (Category categoryItem : categoryList){
             findChildCategory(categorySet, categoryItem.getId());
         }
+        System.out.println(1);
         return categorySet;
     }
 
